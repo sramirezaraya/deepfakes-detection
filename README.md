@@ -30,7 +30,9 @@ Se utilizan diversos modelos pre entrenados, los cuales fueron extraídos con lo
 - Resnet50
 - VGG16
 
-Se entrenaron cada una de las imágenes en los modelos, en donde se van entrenaron cada 20000 imágenes, con un batch size de 64 y 50 iteraciones. El optimizador que se utilizó fue "adam" y "binary crossentropy" con métrica "accuracy". 
+Se entrenaron cada una de las imágenes en los modelos, en donde se van entrenaron cada 20000 imágenes, con un batch size de 64 y 50 iteraciones. El optimizador que se utilizó fue "adam" y "binary crossentropy" con métrica "accuracy". <br>
+Los modelos se pueden encontrar en el siguiente link:
+https://drive.google.com/drive/folders/1y4c2cRrEf_iaf4Vq3QaDIBwoSexLjdGj?usp=sharing
 
 ## Demo 
 Se muestra un ejemplo del algoritmo funcionando, en donde se implementa una interfaz gráfica y se selecciona el video en formato mp4 a predecir. Una vez se elige el video, el algoritmo realiza la predicción, en donde se ve un recuadro verde si la etiqueta es real y un recuadro rojo si la etiqueta es falsa. 
@@ -40,8 +42,8 @@ Se muestra un ejemplo del algoritmo funcionando, en donde se implementa una inte
 </p>
 
 ## Requisitos
-Python 3.7.6 <br>
-El archivo requirements.txt contiene cada una de las librerias y sus versiones para ejecutar el algoritmo.
+- Python 3.7.6 <br>
+- Archivo requirements.txt (contiene las librerias con sus respectivas versiones para el uso)
 
 ## Licencia
 La implementación proporcionada es estrictamente para fines académicos. Si está interesado en utilizar esta tecnología para cualquier uso comercial, no dude en contactarme.
