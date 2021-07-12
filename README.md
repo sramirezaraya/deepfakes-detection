@@ -45,5 +45,20 @@ Se muestra un ejemplo del algoritmo funcionando, en donde se implementa una inte
 - Python 3.7.6 <br>
 - Archivo requirements.txt (contiene las librerias con sus respectivas versiones para el uso)
 
+## Uso 
+*Clonar el repositorio* <br>
+```python 
+git clone https://github.com/sramirezaraya/deepfakes-detection.git
+```
+*Crear un ambiente virtual y activar* <br>
+```python
+python3 -m venv venv
+source venv/bin/activate
+```
+*Instalar librerias con requirements.txt*
+```python
+pip3 install -r requirements.txt
+```
+
 ## Licencia
 La implementación proporcionada es estrictamente para fines académicos. Si está interesado en utilizar esta tecnología para cualquier uso comercial, no dude en contactarme.
