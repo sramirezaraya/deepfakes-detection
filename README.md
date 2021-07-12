@@ -46,9 +46,10 @@ Se muestra un ejemplo del algoritmo funcionando, en donde se implementa una inte
 - Archivo requirements.txt (contiene las librerias con sus respectivas versiones para el uso)
 
 ## Uso 
-*Clonar el repositorio* <br>
+*Clonar el repositorio y acceder a carpeta* <br>
 ```python 
 git clone https://github.com/sramirezaraya/deepfakes-detection.git
+cd deepfakes-detection
 ```
 *Crear un ambiente virtual y activar* <br>
 ```python
@@ -58,6 +59,10 @@ source venv/bin/activate
 *Instalar librerias con requirements.txt*
 ```python
 pip3 install -r requirements.txt
+```
+*Ejecutar programa*
+```python
+python3 deepfakes-clasificador.py
 ```
 
 ## Licencia
